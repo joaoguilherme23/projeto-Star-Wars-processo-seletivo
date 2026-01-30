@@ -27,10 +27,7 @@ Busca com filtro em `people`, `planets` ou `starships` usando o parâmetro `sear
 - `parametro_2` (string): termo de busca (ex.: `luke`, `tatooine`, `falcon`)
 
 
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Nenhum arquivo escolhido
-Attach files by dragging & dropping, selecting or pasting them.
- 
+
 
 **TOKEN PARA TESTE**
 eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTc2OTc4NjQ1NywiaWF0IjoxNzY5Nzg2NDU3fQ.AoxBM6-1-_KSB8No4bc0idfSEKy4cT-njmyC01W09uM
