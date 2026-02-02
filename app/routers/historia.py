@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, Depends
 import httpx, os
 from dotenv import load_dotenv
 from app.core.auth import verifica_token
-
+from app.schemas.info_list import ListResult
 
 load_dotenv()
 endereco_api = os.getenv('URL')
@@ -12,7 +12,7 @@ router = APIRouter(prefix='/api/v1')
 
 parametro_1 = {'people', 'planets','starships'}
 
-@router.get('/busca', status_code=200, summary="Retorna informaçoes detalhadas de planeta, personagens e espaço-naves  do Star Wars")
+@router.get('/busca', status_code=200, response_model=list[ListResult], summary="Retorna informaçoes detalhadas de planeta, personagens e espaço-naves  do Star Wars")
 async def lista_informacao(parametro_1:str, parametro_2:str, token=Depends(verifica_token)):
    
    try:
