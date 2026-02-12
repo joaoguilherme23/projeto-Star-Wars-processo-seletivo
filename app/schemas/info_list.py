@@ -11,7 +11,7 @@ class ListResult(BaseModel):
     birth_year:str
     gender:str
     homeworld:str
-    filmes: list[str]
+    films: list[str]
     species: list[str]
     vehicles: list[str]
     starships: list[str]
